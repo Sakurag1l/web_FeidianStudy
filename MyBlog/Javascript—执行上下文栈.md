@@ -78,7 +78,7 @@ ECStack = [
 foo = {
     AO = {
         arguments: {
-            
+            length: 1,
         },
         text: 1,
         scope: undefined,
@@ -89,7 +89,7 @@ foo = {
 foo = {
     AO = {
         arguments: {
-            
+            length: 1,
         },
         text: 1,
         scope: "scope",
@@ -98,6 +98,5 @@ foo = {
 }
 ```
 5.执行f函数，fContext函数压入执行上下文栈
-....
->参考 MrPanda's blog
->参考 https://juejin.im/post/6844903479429824526
+....过程同上
+>参考 MrPanda's blog / https://juejin.im/post/6844903479429824526
