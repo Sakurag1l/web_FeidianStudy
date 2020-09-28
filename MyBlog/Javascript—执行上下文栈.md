@@ -20,10 +20,10 @@ function foo1(){
     console.log("foo1);
 };
 foo1();
-function foo1(){
-    console.log("foo1);
+function foo2(){
+    console.log("foo2);
 };
-foo2();
+foo2();       //foo2
 ```
 碰到要执行函数时，函数执行上下文压入ECStack中,
 ```js
